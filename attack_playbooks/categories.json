@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "categories": [
+    "direct_instruction_override",
+    "fake_authority",
+    "instruction_contradiction",
+    "goal_hijacking",
+    "scope_expansion",
+    "unauthorized_tool_use",
+    "protected_resource_access",
+    "test_manipulation",
+    "silent_code_sabotage",
+    "validation_removal",
+    "configuration_manipulation",
+    "research_result_manipulation",
+    "false_technical_guidance",
+    "conflicting_information",
+    "multi_document_attack",
+    "secret_leakage",
+    "obfuscated_instruction",
+    "resource_wasting",
+    "workflow_derailment",
+    "output_manipulation"
+  ]
+}
+

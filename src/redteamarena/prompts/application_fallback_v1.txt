@@ -1,0 +1,2 @@
+Infer a conservative application profile only from the supplied safe repository summary. Return JSON matching the supplied schema and no other text. Do not infer secrets, read files, propose actions, or include configuration values. Mark the profile source as llm_fallback and include evidence-based confidence.
+

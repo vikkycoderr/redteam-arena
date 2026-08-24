@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://redteamarena.local/schemas/scenarios.schema.json",
+  "title": "RedTeamArena Scenario Set",
+  "description": "The canonical runtime schema is generated from redteamarena.models.ScenarioSet; this file is the stable public schema marker.",
+  "type": "object",
+  "required": ["schema_version", "scenario_set_id", "agent_id", "configuration_fingerprint", "scenarios"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "scenario_set_id": {"type": "string"},
+    "agent_id": {"type": "string"},
+    "configuration_fingerprint": {"type": "string"},
+    "scenarios": {"type": "array", "items": {"type": "object"}}
+  },
+  "additionalProperties": false
+}
+
